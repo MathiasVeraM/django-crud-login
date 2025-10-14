@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'account'
 ]
 
 MIDDLEWARE = [
@@ -98,6 +100,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# AUTH USER cambiado al creado por mi
+AUTH_USER_MODEL = "account.Usuario"
+
+# LOGIN URL especificas para que muestre el login que se va a crear y no de error
+LOGIN_URL = "/account/login/"
+LOGIN_REDIRECT_URL = "/account/profile/"
+LOGOUT_REDIRECT_URL = "/"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
