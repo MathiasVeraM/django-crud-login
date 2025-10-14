@@ -27,6 +27,7 @@ El proyecto se centra en el aprendizaje y la práctica de las funcionalidades es
 
 1. **Clonar el repositorio**:
 
+``` bash
 git clone [<URL_DEL_REPOSITORIO>](https://github.com/MathiasVeraM/django-crud-login.git)
 cd django-crud-login
 
