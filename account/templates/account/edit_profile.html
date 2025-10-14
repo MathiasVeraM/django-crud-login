@@ -1,0 +1,13 @@
+{% extends "account/base.html" %}
+
+{% block content %}
+<h1>Editar Perfil del Usuario</h1>
+<div class="form-container">
+    <h2>Editar perfil</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn">Guardar cambios</button>
+    </form>
+</div>
+{% endblock %}

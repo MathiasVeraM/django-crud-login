@@ -1,0 +1,16 @@
+{% extends "account/base.html" %}
+
+{% block content %}
+<h1>Perfil del Usuario</h1>
+<div class="profile-container">
+    <h2>Mi perfil</h2>
+    <ul>
+        <li><strong>Usuario:</strong> {{ user.username }}</li>
+        <li><strong>Correo:</strong> {{ user.email }}</li>
+        {% if user.date_of_birth %}
+        <li><strong>Fecha de nacimiento:</strong> {{ user.date_of_birth }}</li>
+        {% endif %}
+        <li><strong>Nombre completo:</strong> {{ user.first_name }} {{ user.last_name }}</li>
+    </ul>
+</div>
+{% endblock %}

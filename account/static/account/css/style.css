@@ -1,0 +1,119 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Navegación */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Contenedores de formularios */
+.form-container, .profile-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+.form-container h2, .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Inputs y selects */
+input.input, select.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botones */
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #555;
+}
+
+/* Botón peligroso */
+button.btn-danger {
+    background-color: #c0392b;
+}
+
+button.btn-danger:hover {
+    background-color: #e74c3c;
+}
+
+/* Botón secundario */
+a.btn-secondary {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-color: #777;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a.btn-secondary:hover {
+    background-color: #555;
+}
+
+/* Mensajes */
+.messages {
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+.message {
+    background-color: #e1f0ff;
+    border-left: 5px solid #3399ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
