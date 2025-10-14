@@ -27,13 +27,13 @@ El proyecto se centra en el aprendizaje y la práctica de las funcionalidades es
 
 1. **Clonar el repositorio**:
 
-```
-git clone [<URL_DEL_REPOSITORIO>](https://github.com/MathiasVeraM/django-crud-login.git)
+``` bash
+git clone https://github.com/MathiasVeraM/django-crud-login.git
 cd django-crud-login
 ```
 
 2. **Crear un entorno virtual**:
-```
+``` 
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
