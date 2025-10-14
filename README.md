@@ -30,34 +30,46 @@ El proyecto se centra en el aprendizaje y la práctica de las funcionalidades es
 ```
 git clone [<URL_DEL_REPOSITORIO>](https://github.com/MathiasVeraM/django-crud-login.git)
 cd django-crud-login
+```
 
 2. **Crear un entorno virtual**:
+```
 python -m venv venv
 source venv/bin/activate   # Linux/macOS
 venv\Scripts\activate      # Windows
+```
 
 3. **Instalar las dependencias**:
+```
 pip install -r requirements.txt
 Nota: en este proyecto solo se utiliza Django, por lo que el requirements.txt contiene únicamente esa librería y lo que necesita para funcionar.
+```
 
 4. **Aplicar migraciones**:
+```
 python manage.py makemigrations
 python manage.py migrate
+```
 
 5. **Ejecutar el servidor**:
+``` python
 python manage.py runserver
+```
 
 6. **Acceder al servidor**:
+
+```
 http://localhost:8000/ 
 Esto por defecto te lleva a la pantalla de login o de perfil si estas ingresado al sistema
+```
 
 7. **Rutas clave**:
+
+```
 Registrar un nuevo usuario: http://localhost:8000/account/register/
 Login: http://localhost:8000/account/login/
 Perfil y edición: http://localhost:8000/account/profile/
-
 ```
-
 ---
 
 ## Notas
