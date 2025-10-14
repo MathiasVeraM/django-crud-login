@@ -104,9 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 AUTH_USER_MODEL = "account.Usuario"
 
 # LOGIN URL especificas para que muestre el login que se va a crear y no de error
-LOGIN_URL = "/account/login/"
-LOGIN_REDIRECT_URL = "/account/profile/"
-LOGOUT_REDIRECT_URL = "/"
+LOGIN_URL = "/login/"
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
