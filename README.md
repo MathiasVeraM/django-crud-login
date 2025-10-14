@@ -27,7 +27,7 @@ El proyecto se centra en el aprendizaje y la práctica de las funcionalidades es
 
 1. **Clonar el repositorio**:
 
-``` bash
+```
 git clone [<URL_DEL_REPOSITORIO>](https://github.com/MathiasVeraM/django-crud-login.git)
 cd django-crud-login
 
@@ -55,6 +55,8 @@ Esto por defecto te lleva a la pantalla de login o de perfil si estas ingresado 
 Registrar un nuevo usuario: http://localhost:8000/account/register/
 Login: http://localhost:8000/account/login/
 Perfil y edición: http://localhost:8000/account/profile/
+
+```
 
 ---
 
